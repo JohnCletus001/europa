@@ -1,0 +1,62 @@
+body{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: black;
+}
+.spinner{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    border-bottom: 5px solid red;
+    border-left:5px solid blue;
+    border-top: 5px solid green;
+    border-right: 5px solid yellow;
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+
+    animation: spin 1s infinite linear;
+}
+.loader-img{
+    width: 165px;
+    height: 30px;
+    position: absolute;
+    top: 0;
+    bottom: 25%;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.loader-text{
+    color: #F9AD81;
+    width: 155px;
+    height: 20px;
+    position: absolute;
+    top: 15%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+
+    font-size: 40px;
+}
+
+
+
+@keyframes spin {
+    from{
+        transform: rotate(0deg);
+    }to{
+        transform: rotate(360deg);
+    }
+
+}
+
+@media screen and (max-width: 631px) {
+   
+}

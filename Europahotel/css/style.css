@@ -1,0 +1,478 @@
+/* 
+=============================================================================
+                                GENERAL
+=============================================================================
+*/
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* font-family: "monument Extended"; */
+}
+li{
+    list-style: none !important;
+}
+button:focus, select:focus, input:focus, -liarea:focus{
+    outline: none;
+}
+a:hover{
+    text-decoration: none;
+}
+.but-sha{
+    box-shadow: 1px 1px 10px #ac6e4a;
+}
+.col, .linkfot .boos:hover, .newsh, .part4r a,.ft,.loader-text,.nav-link:hover, .but1,.span{
+    color: #F9AD81 !important;
+}
+.bac-col, .part4r button, .roww,.but2,.news button{
+    background-color: #F9AD81 !important;
+}
+.white,.but3,h3,.main-header,h5{
+    color: white !important;
+}
+.news, .jus,.main-header,.bb{
+    text-align: center !important;
+}
+.but1,.but2,.bodk,.bo,.part4r button,.news button,.nne,.bor{
+    border: none !important;
+}
+#preloader,header,.l,.but2,.bodk,.part1 input,.vvv,.w,.rom{
+    width: 100% !important;
+}
+.black,.roww,.part4r button{
+    color: black !important;
+}
+.sec-col{
+    color: rgba(255, 255, 255, 0.397) !important; 
+}
+.borders{
+    border-bottom: 2px solid rgba(0, 0, 0, 0.37) !important;
+}
+span{
+    font-family: 'Times New Roman', Times, serif;
+}
+.linkfot li{
+    margin-left: 0px !important;
+}
+.whiteer{
+    color: rgba(255, 255, 255, 0.651);
+}
+@media screen and (max-width:767px){
+    .godmoder{
+        display: none !important;
+    }
+}
+@media screen and (min-width:767px){
+    .part2c-alt{
+        display: none  !important;
+    }
+}
+/* 
+=============================================================================
+                                pre-loader
+=============================================================================
+*/
+#preloader {
+	position: fixed;
+	height: 100%;
+	top: 0;
+	left: 0;
+	z-index: 999999;
+	background: #000;
+}
+.spinner{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    border-top: 5px solid white;
+    /* border-right: 5px solid white; */
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+
+    animation: spin 1s infinite linear;
+}
+.loader-img{
+    width: 165px;
+    height: 30px;
+    position: absolute;
+    top: 0;
+    bottom: 25%;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.loader-text{
+    width: 155px;
+    height: 20px;
+    position: absolute;
+    top: 15%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+
+    font-size: 40px;
+}
+
+
+
+@keyframes spin {
+    from{
+        transform: rotate(0deg);
+    }to{
+        transform: rotate(360deg);
+    }
+
+}
+/*
+=============================================================================
+                                HEADER
+=============================================================================
+*/
+header{
+    background-color:#353535;
+    position: fixed;
+    top: 0;
+    z-index: 50;
+}
+.but1{
+    height: 55px;
+    width: 200px;
+}
+li{
+    margin-left: 30px;
+}
+/* 
+=============================================================================
+                                PART1
+=============================================================================
+*/
+.part1{
+    background-image: url(../img/hero-bg.jpg);
+    padding: 270px 80px 160px 30px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.elo{
+    background-color: rgba(0, 0, 0, 0.425);
+    padding: 30px 40px;
+}
+.main-header{
+    font-size: 100px;
+    margin-bottom: 100px;
+}
+.but2{
+    height: 85px;
+}
+.part1 input,select{
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0);
+}
+/* 
+=============================================================================
+                                PART2
+=============================================================================
+*/
+.part2{
+    background-color: rgba(255, 127, 80, 0.068);
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.v{
+    border: 10px solid coral;
+    padding: 50px 80px;
+}
+/* 
+=============================================================================
+                                PART3
+=============================================================================
+*/
+.part3{
+    box-shadow: 1px 3px 15px  black;
+}
+.m{
+    background-image: url(../img/faci-1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.n{
+    background-image: url(../img/faci-2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.pad{
+    padding: 50px 80px;
+}
+
+.mb{
+    margin-bottom: 350px;
+}
+i{
+    font-size: 50px;
+}
+.but3{
+    background-color: rgba(0, 0, 0, 0) !important;
+    border: 3px solid white !important;
+    
+}
+.mb1{
+    margin-bottom: 470px;
+}
+/* 
+=============================================================================
+                                PART4
+=============================================================================
+*/
+.part4{
+    background-color:#353535;
+    padding: 100px 25px 10px 25px;
+    color: rgba(255, 255, 255, 0.397);
+    box-shadow: inset 1px 3px 10px black;
+}
+.italics{
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.397);
+}
+.jus{
+    margin-bottom: 0px !important;
+}
+.ft{
+    font-size: 20px;
+}
+.vvv{
+    padding: 0px !important;
+}
+/* 
+=============================================================================
+                                PART2a
+=============================================================================
+*/
+.part2a{
+    padding: 50px 10px 50px 50px;
+}
+.com{
+    border-right: none;
+    border-radius: 0px;
+}
+.bo{
+    border-bottom: 1px solid black;
+}
+.eaa{
+    padding-bottom: 5px;
+}
+.p{
+    padding-left: 20px;
+}
+.roww{
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: 600;
+    box-shadow: 1px 1px 5px #ac6e4a;
+}
+.row a{
+    color: rgba(0, 0, 0, 0.582);
+}
+.roww i{
+    font-size: 25px;
+    padding: 5px;
+    border: 1px solid  rgba(0, 0, 0, 0.582);
+    border-radius: 25px;
+}
+.mad{
+    margin-bottom: 40px;
+}
+/* 
+=============================================================================
+                                PART2c
+=============================================================================
+*/
+.part2c{
+    padding: 50px 0px;
+}
+/* 
+=============================================================================
+                                PART2c-alt
+=============================================================================
+*/
+.part2c-alt{
+    text-align: center;
+}
+/* 
+=============================================================================
+                                PART3c
+=============================================================================
+*/
+.bf{
+    padding: 0px !important;
+}
+.oop{
+    padding-top: 60px !important;
+}
+/* 
+=============================================================================
+                                PART4r
+=============================================================================
+*/
+.part4r a{
+    font-size: 20px;
+}
+.part4r i{
+    font-size: 20px;
+}
+.rom{
+    text-align: right;
+    padding: 0px 15px;
+}
+.rom button{
+    padding: 10px;
+}
+.ppp i{
+    padding-right: 40px;
+}
+.pop{
+    font-size: 16px;
+}
+.newsh{
+    font-size: 40px;
+}
+.news button{
+    padding: 0px 15px;
+
+}
+.boos{
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.397) !important; 
+}
+.nne{
+    padding-left: 10px;
+    height: 50px;
+    width: 300px;
+}
+.nnee{
+    width: 100px !important;
+}
+.height img{
+    height: 90vh !important;
+}
+.vee{
+    padding: 200px 100px!important;
+    text-align: center;
+}
+.back{
+    color: darkgreen !important;
+    background-color: rgba(0, 0, 0, 0) !important;
+    border: 2px solid darkgreen !important;
+    padding: 10px;
+}
+/* 
+=============================================================================
+                                reservation
+=============================================================================
+*/
+.pood{
+    padding: 50px 80px !important;
+    border: none;
+    background-color: #F9AD81;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px #ac6e4a;
+}
+.pood input, textarea,.pood select{
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid black; 
+    background-color: white;
+}
+.pood input,.pood select{
+    height: 60px;
+}
+.poo{
+    padding-top: 200px;
+    padding-bottom: 40px;
+}
+.bord{
+    border: 1px solid black !important;
+    border-radius: 10px;
+}
+.ali{
+    text-align: center !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+=============================================================================
+                                MEDIA QUERIES
+=============================================================================
+*/
+@media screen and (max-width:631px){
+    .oppo{
+        padding: 25px 10px !important;
+    }
+    .main-header{
+        font-size: 40px;
+        margin-bottom: 60px;
+    }
+    .part1, .part4{
+        padding: 200px 10px 10px 10px !important;
+    }
+    .v{
+        padding: 45px 10px;
+    }
+    .part2a{
+        padding: 50px 5px 50px 5px;
+    }
+    .pad{
+        padding: 15px;
+    }
+    .roww i{
+        font-size: 10px;
+    }
+    .vee{
+        padding: 200px 15px !important;
+    }
+    .pood{
+        padding: 50px 15px!important;
+    }
+    .reviews{
+        text-align: center !important;
+    }
+    .news input{
+        width: 150px;
+    }
+    .bbbe{
+        font-size: 25px;
+    }
+@media screen and (max-width:631px){
+        .godmoder{
+            display: none !important;
+        }
+    }
+@media screen and (min-width:631px){
+        .part2c-alt{
+            display: none  !important;
+        }
+    }
+@media screen and (max-width:991px){
+        footer{
+        text-align: center;
+        }
+    }
